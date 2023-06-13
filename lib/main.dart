@@ -9,6 +9,7 @@ const List<Color> backgroundColours = [
 void main() {
   runApp(
     const MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: GradientContainer(backgroundColours),
       ),
